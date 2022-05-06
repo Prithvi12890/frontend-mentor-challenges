@@ -21,7 +21,7 @@ This project is done using basic HTML and CSS. The main aim was to replicate the
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Prithvi12890/frontend-mentor-challenges)
+- Solution URL: [Solution URL](https://github.com/Prithvi12890/frontend-mentor-challenges/qr-code-component/)
 - Live Site URL: [Live site](https://prithvi12890.github.io/frontend-mentor-challenges/qr-code-component/)
 
 ## Author
