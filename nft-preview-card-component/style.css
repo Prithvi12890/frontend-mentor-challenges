@@ -21,8 +21,9 @@ body p{
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 53%, 61%); 
+    color: hsl(228, 53%, 61%);
 }
+
 
 .container{
     margin: 0 auto;
