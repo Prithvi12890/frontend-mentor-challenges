@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+body p{
+    font-size: 16px;
+}
+
+.attribution { 
+    display: none;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    width: 90%;
+    height: 97vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.hero{
+    width: 100%;
+}
+
+.card-data{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.title{
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 20px 10px;
+    margin-bottom: 1rem;
+}
+
+.icon{
+    margin: 0 15px 0 10px;
+}
+
+.plan-type{
+    flex-grow:1;
+}
+
+.plan-name{
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price{
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%)
+}
+
+.plan-change{
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.plan-change:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.payment{
+    margin: 10px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    font-weight:700;
+    font-size: 14px;
+    box-shadow: 0 20px 20px 0 hsl(225, 100%, 94%);
+    letter-spacing: 0.5px;
+}
+
+.payment:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cancel{
+    text-decoration: none;
+    text-align: center;
+    margin: 15px 0 0 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.cancel:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url('images/pattern-background-mobile.svg');
+    }
+  }
