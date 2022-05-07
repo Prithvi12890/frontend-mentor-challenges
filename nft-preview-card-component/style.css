@@ -16,11 +16,12 @@ body p{
 }
 
 .attribution { 
-    display: none;
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    color:hsl(228, 34%, 43%);
+    text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 53%, 61%); 
 }
 
 .container{
