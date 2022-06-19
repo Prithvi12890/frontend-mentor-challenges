@@ -13,9 +13,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 This project is done using basic HTML and CSS. The main aim was to replicate the given design as close as possible and make it mobile responsive too.
 
 ### Screenshot
-- Desktop View
+- Desktop View <br>
 ![](./desktop-view-screenshot.png)
-- Mobile View
+- Mobile View <br>
 ![](./mobile-view-screenshot.png)
 
 ### Links
