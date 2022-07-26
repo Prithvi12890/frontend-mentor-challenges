@@ -24,7 +24,7 @@ This project is done using HTML, CSS and ReactJS library. The main aim was to re
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Prithvi12890/frontend-mentor-challenges/tree/master/advice-generator-app)
-- Live Site URL: [Live site](https://prithvi12890.github.io/frontend-mentor-challenges/advice-generator-app/)
+- Live Site URL: [Live site](https://prithvi12890.github.io/advice-generator-app/)
 
 ## Author
 
